@@ -1,0 +1,708 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Montserrat:wght@700&family=Outfit:wght@400;700&family=Work+Sans:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Montserrat;
+}
+
+header{
+   width: 80%; 
+   display: flex;
+   justify-content: space-between;
+   padding-top: 50px;
+   margin: 0 auto;
+   font-size: 10px;
+}
+.signup{
+    background-color: rgb(130, 130, 214);
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 600px;
+     font-family: Montserrat;
+     border-radius: 5px;
+}
+.plate{
+    width: 90%;
+    font-family: montserrat;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.urano{
+    width:50%;
+    margin: 0 auto;
+}
+.urano h1{
+    width: 85%;
+    font-size: 55px;
+    padding-bottom: 15px;
+}
+.urano p{
+    width: 85%;
+    font-family: PT serif;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.logo img{
+    width: 20%;
+}
+.iphone{
+    width: 40%;
+    padding-bottom: 40px;
+}
+.change{
+    width: 85%;
+    font-family: montserrat;
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    gap: 20px;
+}
+.lorem h3{
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+ .lorem img{
+    width: 40%;
+}
+.lorem p{
+    font-family: PT serif;  
+    padding-top: 15px;
+    font-size: 16   px;
+    width: 85%;
+    color: lightgray;
+}
+.erat h3{
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.erat img{
+    width: 40%;
+}
+.erat p{
+    font-family: PT serif;  
+    padding-top: 15px;
+    font-size: 16px;
+    width: 85%;
+    color: lightgray;
+}
+.tangle h3{
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.tangle img{
+    width: 40%;
+}
+.tangle p{
+    width: 65%;
+    font-family: PT serif;  
+    padding-top: 15px;
+    font-size: 16px;
+    width: 85%;
+    color: lightgray;
+}
+.started{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(1, 1, 32);
+    color: white;
+    padding: 40px 0px;
+}
+.semper{
+    width: 80%;
+    padding-left: 88px;
+}
+.semper h1{
+    width: 80%;
+    font-size: 25px;
+    justify-content: flex-start;
+    text-align: start;
+    align-items: flex-start;
+    padding-bottom: 10px;
+    font-weight: 500px;
+}
+.semper p{
+    width: 78%;
+    font-size: 16px;
+    padding-bottom: 12px;
+    font-family: PT serif;
+}
+.active{
+    width: 25%;
+    padding: 10px;
+    background-color: rgb(91, 91, 189);
+    color: white;
+    text-decoration: none;
+    border: none;
+    font-size: 15px;
+    text-align: center;
+}
+.done{
+    width: 100%;
+    min-height: 80vh;
+    background-image: url(/images/Video.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: end;
+}
+.mode{
+    padding-left: 70px;
+    width: 98%;
+}
+.mode h1{
+    font-size: 30px;
+    color: white;
+    padding-bottom: 20px;
+}
+.mode p{
+    color: white;
+    width: 65%;
+    font-size: 18px;
+    padding-bottom: 100px;
+}
+.ipsum{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+.gone{
+    width: 40%;
+}
+.mac{
+    width: 100%;
+}
+ .mac img{
+    width: 80%;
+    padding-left: 40px;
+}
+.save{
+    width:70%;
+    text-align: center;
+    justify-content: center;
+    
+}
+.save .pencils{
+    display: flex;
+    gap: 70px;
+    margin-bottom: 60px;
+    text-align: center;
+    align-items: center;
+}
+.pencil img{
+    width: 10%;
+    padding-bottom: 18px;
+}
+.pencil h3{
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.pencil p{
+    font-size: 20px;
+    font-family: PT serif;
+    line-height: 25px;
+    color: lightgray;
+    font-weight: 500px;
+}
+.palette img{
+     width: 10%;
+     padding-bottom: 18px;
+}
+.palette h3{
+     font-size: 25px;
+     padding-bottom: 18px;
+}
+.palette p{
+      font-size: 20px;
+      font-family: PT serif;
+      line-height: 25px;
+      color: lightgray;
+      font-weight: 500px;
+}
+
+.save .content{
+    display: flex;
+    gap: 70px;
+}
+.contrast img{
+    width: 10%;
+    padding-bottom: 18px;
+}
+.contrast h3{
+    font-size: 25px;
+    padding-bottom: 18px;
+}
+.contrast p{
+    font-size: 20px;
+    font-family: PT serif;
+    line-height: 25px;
+    color: lightgray;
+    font-weight: 500px;
+}
+.drag img{
+    width: 10%;
+    padding-bottom: 18px;
+}
+.drag h3{
+    font-size: 25px;
+    padding-bottom: 18px;
+}
+.drag p{
+    font-size: 20px;
+    font-family: PT serif;
+    line-height: 25px;
+    color: lightgray;
+    font-weight: 500px;
+}
+footer{
+    background-color: rgb(18, 18, 66);
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.get{
+    padding-bottom: 70px;
+}
+.line{
+    border: 0.2px solid rgb(88, 77, 77);
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    }
+footer h1{
+    color: white;
+    font-size: 35px;
+    padding-top: 80px;
+}
+footer p{
+    color: white;
+    font-size: 15px;
+    font-family: PT serif;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+footer button{
+    background-color: rgb(62, 62, 161);
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    width: 20%;
+    height: 40px;
+    border-radius: 3px;
+}
+footer .links{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    gap: 88px;
+    padding-bottom: 20px;
+}
+.links .Blog nav{
+    display: grid;
+    gap: 10px;
+    padding-top: 20px;
+}
+.links .Blog nav a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 100;
+    font-size: 15px;
+    font-family: PT serif;
+}
+.links .Press nav{
+    display: grid;
+    gap: 10px;
+    padding-top: 20px;
+}
+.links .Press nav a{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+    font-family: PT serif;
+}
+.links .Sales nav{
+    display: grid;
+    gap: 10px;
+    padding-top: 20px;
+}
+.links .Sales nav a{
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+    font-family: PT serif;
+}
+footer img{
+    margin: 20px;
+}
+.com{
+    padding: 40px;
+    font-size: 18px;
+    color: rgb(66, 64, 64);
+}
+@media screen and ( max-width: 1024px) {
+header {
+    width: 90%;
+}
+.plate{
+    width: 90%;
+    justify-content: space-between;
+}
+.urano{
+    width: 90%;
+}
+.urano h1{
+    width: 60%;
+    font-size: 40px;
+}
+.urano p{
+    width: 80%;
+    font-size: 18px;
+}
+.logo img{
+    width: 20%;
+}
+.iphone{
+    width: 40%;
+}
+.iphone img{
+    width: 80%;
+}
+
+.change{
+    width: 90%;
+}
+.lorem h3{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.lorem img{
+    width: 45%;
+}
+.lorem p{
+    font-size: 18px;
+    width: 90%;
+    
+}
+.erat h3{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.erat img{
+    width: 45%;
+}
+.erat p{
+    font-size: 18px;
+    width: 90%;
+}
+.tangle h3{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.tangle img{
+    width: 45%;
+}
+.tangle p{
+    width: 90%;
+    font-size: 18px;
+}
+.started{
+    width: 100%;
+}
+.semper{
+    width: 90%;
+    padding-left: 40px;
+}
+.semper h1{
+    width: 70%;
+    font-size: 20px;
+}
+.semper p{
+    width: 70%;
+    font-size: 15px;
+}
+.active{
+    width: 20%;
+}
+.done{
+    width: 100%;
+    min-height: 60vh;
+}
+.mode{
+    padding-left: 20px;
+}
+.mode h1{
+    font-size: 25;
+    padding-bottom: 15px;
+}
+.mode p{
+    width: 90%;
+    padding-bottom: 40px;
+    font-size: 15px;
+}
+
+.mac img{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.mac img{
+    width: 80%;
+    padding-left: 2px;
+}
+.ipsum{
+    width: 95%;
+}
+}
+@media screen and ( max-width: 768px) {
+    .plate{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .urano h1{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .urano p{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .logo{
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+    }
+    .logo img{
+        padding-bottom: 40px;
+    }
+    .change{
+        width: 90%;
+        flex-direction: column;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+    }
+    .lorem h3{
+        font-size: 25px;
+    }
+    .lorem img{
+        width: 20%;
+    }
+    .lorem p{
+        width: 100%;
+    }
+    .erat h3{
+        font-size: 25px;
+    }
+    .erat img{
+        width: 20%;
+    }
+    .erat p{
+        width: 100%;
+    }
+    .tangle h3{
+        font-size: 25px;
+    }
+    .tangle img{
+        width: 20%;
+    }
+    .tangle p{
+        width: 100%;
+    }
+    .started{
+        width: 100%;
+    }
+    .semper{
+        width: 90%;
+        padding-left: 30px;
+    }
+    .started p{
+        width: 90%;
+    }
+    .active{
+        width: 30%;
+        font-size: 18px;
+        padding: 13px;
+        text-align: center;
+    }
+    .done{
+        width: 100%;
+        min-height: 50vh;
+        display: grid;
+        place-items: end;
+        background-size: cover;
+    }
+    .mode{
+        width: 100%;
+        padding-left: 30px;
+    }
+    .mode h1{
+        font-size: 25px;
+    }
+    .mode p{
+        width: 80%;
+        padding-bottom: 50px;
+        font-size: 15px;
+    }
+    .mac img{ 
+        width: 100%;
+        padding-bottom: 50px;
+       }
+       .ipsum{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }    
+    .pencils{
+        flex-direction: column;
+    }
+    .content{
+        flex-direction: column;
+    }
+}
+@media screen and ( max-width: 500px) {
+.signup {
+    font-size: 16px;
+    padding: 12px 20px;
+}
+.urano h1{
+    width: 100%;
+}
+.urano p{
+    width: 100%;
+}
+.logo img{
+    width: 30%;
+}
+.iphone img{
+    width: 100%;
+}
+.lorem img{
+    width: 30%;
+}
+.lorem p{
+    width: 100%;
+}
+.erat img{
+    width: 30%;
+}
+.erat p{
+    width: 100%;
+}
+.tangle img{
+    width: 30%;
+}
+.tangle p{
+    width: 100%;
+}
+.semper{
+    width: 100%;
+}
+.semper p{
+    width: 100%;
+}
+.active{
+    width: 40%;
+    padding: 14px;
+}
+.done{
+    width: 100%;
+    min-height: 35vh;
+    display: grid;
+    place-items: end;
+    background-size: cover;
+}
+.mode{
+    padding-left: 20px;
+}
+.mode h1{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.mode p{
+    width: 100%;
+    padding-bottom: 20px
+}
+.mac img{
+    width: 100%
+}
+.save{
+    width: 100%;
+}
+.pencil p{
+    width: 100%;
+}
+footer button{
+    width: 40%;
+}
+}
+@media screen and ( max-width: 375px) {
+    header{
+        width: 90%;
+    }
+    .semper{
+        width: 90%;
+    }
+    .active{
+        width: 50%;
+        pad: 4px;
+    }
+    .done{
+        width: 100%;
+        min-height: 28vh;
+        display: grid;
+        place-items: end;
+        background-size: cover;
+    }
+    .mode h1{
+        font-size: 18px;
+        padding-bottom: 3px;
+    }
+    .mode p{
+        width: 90%;
+        padding-bottom: 8px;
+        font-size: 10px;
+    }
+    .ipsum{
+        width: 90%;
+    }
+    footer{
+        width: 100%;
+    }
+    footer h1{
+        font-size: 20px;
+    }
+    footer p{
+        /* width: 90%; */
+        font-size: 12px;
+    }
+    footer .links{
+        width: 100%;
+        gap: 50px;
+    }
+}
